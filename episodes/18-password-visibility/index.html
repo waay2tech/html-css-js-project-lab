@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Input type toggle, pressed state and clear accessible labels."
+    />
+    <title>Password visibility — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 18</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Password visibility</h1>
+          <p>Input type toggle, pressed state and clear accessible labels.</p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div class="compact">
+          <label for="password">Demo password</label>
+          <div class="row">
+            <input
+              id="password"
+              type="password"
+              autocomplete="new-password"
+              aria-describedby="status"
+              style="flex: 1; min-width: 160px"
+            /><button id="visibility" class="secondary">Show password</button>
+          </div>
+          <p id="status" class="status" role="status" aria-live="polite">
+            Password hidden.
+          </p>
+          <p class="note">
+            Visibility is a UI preference. It does not strengthen or verify a
+            password.
+          </p>
+        </div>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../17-sign-in-interface/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../19-otp-input/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

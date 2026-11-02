@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="CSS view-timeline enhancement, sticky fallback, readable DOM order and reduced motion."
+    />
+    <title>Stack your learning — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 34</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Stack your learning</h1>
+          <p>
+            CSS view-timeline enhancement, sticky fallback, readable DOM order
+            and reduced motion.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <p>
+          Scroll through three learning stages. Sticky positioning supplies a
+          broad fallback; supported browsers also animate with CSS view
+          timelines.
+        </p>
+        <div class="card-stack">
+          <article class="stack-card">
+            <div>
+              <h2>Structure the idea</h2>
+              <p>Give every block a meaningful HTML role.</p>
+            </div>
+            <img
+              class="art"
+              src="./assets/scene-1.svg"
+              alt="Original landscape illustration"
+              width="800"
+              height="600"
+            />
+          </article>
+          <article class="stack-card">
+            <div>
+              <h2>Make the layout adapt</h2>
+              <p>Let content reflow instead of shrinking everything.</p>
+            </div>
+            <img
+              class="art"
+              src="./assets/scene-2.svg"
+              alt="Original landscape illustration"
+              width="800"
+              height="600"
+            />
+          </article>
+          <article class="stack-card">
+            <div>
+              <h2>Test the interaction</h2>
+              <p>Check focus, error states and reduced motion.</p>
+            </div>
+            <img
+              class="art"
+              src="./assets/scene-3.svg"
+              alt="Original landscape illustration"
+              width="800"
+              height="600"
+            />
+          </article>
+        </div>
+        <p id="status" class="status" role="status" aria-live="polite">
+          All three cards are readable.
+        </p>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../33-gsap-scroll-zoom/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../35-neon-cursor/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

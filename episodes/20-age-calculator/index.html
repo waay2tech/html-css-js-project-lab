@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Local date parsing, valid calendar dates, future rejection and birthday boundaries."
+    />
+    <title>Age calculator — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 20</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Age calculator</h1>
+          <p>
+            Local date parsing, valid calendar dates, future rejection and
+            birthday boundaries.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <form id="age-form" class="two">
+          <div>
+            <div class="field">
+              <label for="birth">Birth date</label
+              ><input id="birth" type="date" value="" required />
+            </div>
+            <button id="calculate">Calculate age</button>
+            <p class="muted">
+              Uses your local calendar date. Feb 29 birthdays reach their
+              anniversary on March 1 in non-leap years.
+            </p>
+          </div>
+          <div class="panel">
+            <h2>Completed years</h2>
+            <output id="age" class="result">—</output>
+            <p id="status" class="status" role="status" aria-live="polite">
+              Choose a birth date.
+            </p>
+          </div>
+        </form>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../19-otp-input/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../21-digital-clock/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

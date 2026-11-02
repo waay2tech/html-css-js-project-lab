@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Responsive service page, anchor navigation and native accessible dialog."
+    />
+    <title>Less admin. More teaching. — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 39</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Less admin. More teaching.</h1>
+          <p>
+            Responsive service page, anchor navigation and native accessible
+            dialog.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <nav class="landing-nav" aria-label="Page sections">
+          <a href="#services">Solutions</a><a href="#workflow">Workflow</a
+          ><a href="#brief">Your brief</a>
+        </nav>
+        <div class="service-hero">
+          <div>
+            <h2 class="large">Room to<br />teach.</h2>
+            <p>
+              NexSkill Advisory explores practical web tools for educational
+              teams: clear workflows, accessible interfaces and manageable
+              automation.
+            </p>
+            <a href="#brief" class="button">Plan a solution</a>
+          </div>
+          <img
+            class="art"
+            src="./assets/workspace.svg"
+            alt="Original study workspace illustration"
+            width="800"
+            height="600"
+          />
+        </div>
+        <section id="services" class="section">
+          <h2>Start with one workflow.</h2>
+          <div class="three">
+            <article>
+              <h3>Student support</h3>
+              <p>
+                Organize enquiries and the next action in one clear interface.
+              </p>
+            </article>
+            <article>
+              <h3>Institution tools</h3>
+              <p>
+                Turn a repeated coordination task into a small, focused web
+                tool.
+              </p>
+            </article>
+            <article>
+              <h3>Project guidance</h3>
+              <p>
+                Explain the code, help students practice and make progress
+                visible.
+              </p>
+            </article>
+          </div>
+        </section>
+        <section id="workflow" class="section">
+          <h2>From brief to useful tool.</h2>
+          <ol>
+            <li>Describe the repetitive task.</li>
+            <li>Agree on a small prototype.</li>
+            <li>Test it with the people who use it.</li>
+          </ol>
+        </section>
+        <section id="brief" class="section panel">
+          <h2>Draft your project brief</h2>
+          <label for="brief-text">What would you like to simplify?</label
+          ><textarea
+            id="brief-text"
+            placeholder="For example: track student project review requests."
+          ></textarea>
+          <p></p>
+          <button id="preview-brief">Preview brief</button>
+          <p id="status" class="status" role="status" aria-live="polite">
+            Your text stays in this page.
+          </p>
+        </section>
+        <dialog id="brief-dialog" aria-labelledby="dialog-title">
+          <h2 id="dialog-title">Your draft brief</h2>
+          <p id="brief-preview"></p>
+          <p class="muted">Preview only. Nothing was sent.</p>
+          <form method="dialog"><button>Close preview</button></form>
+        </dialog>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../38-project-portfolio/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../40-storefront/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

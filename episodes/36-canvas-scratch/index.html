@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="HiDPI canvas, local pointer coordinates, capture/cancel and keyboard reveal/reset."
+    />
+    <title>Scratch to reveal — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 36</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Scratch to reveal</h1>
+          <p>
+            HiDPI canvas, local pointer coordinates, capture/cancel and keyboard
+            reveal/reset.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div id="scratch-wrap" class="scratch-wrap">
+          <p>
+            You unlocked a practice idea:<br /><strong
+              >Build your own card.</strong
+            >
+          </p>
+          <canvas
+            id="scratch"
+            aria-label="Scratch surface. Use Reveal message button for keyboard access."
+          ></canvas>
+        </div>
+        <p></p>
+        <div class="row">
+          <button id="reveal">Reveal message</button
+          ><button id="reset-scratch" class="secondary">Reset surface</button>
+        </div>
+        <p id="status" class="status" role="status" aria-live="polite">
+          Scratch with a pointer or use Reveal message.
+        </p>
+        <p class="note">
+          Learning interaction only. No prize, money or chance-based reward.
+        </p>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../35-neon-cursor/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../37-music-player/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

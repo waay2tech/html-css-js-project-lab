@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Semantic article, Grid layout, spacing and a small stateful enhancement."
+    />
+    <title>Everyday laptop — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 01</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Everyday laptop</h1>
+          <p>
+            Semantic article, Grid layout, spacing and a small stateful
+            enhancement.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <article class="two">
+          <div>
+            <img
+              class="art"
+              src="./assets/laptop.svg"
+              alt="Original vector illustration of a laptop"
+              width="800"
+              height="600"
+            />
+          </div>
+          <div>
+            <h2 class="large">Everyday laptop.</h2>
+            <p>Work, learn and create. Make room for your next idea.</p>
+            <p class="price">₹49,900 <small>sample price</small></p>
+            <button id="bag">Add to demo bag</button>
+            <p id="status" class="status" role="status" aria-live="polite">
+              Demo bag is empty.
+            </p>
+            <p class="note">Learning demo. No checkout or real inventory.</p>
+          </div>
+        </article>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <span>Start here</span><a href="../../index.html">All 40 lessons</a
+      ><a href="../02-recipe-card/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

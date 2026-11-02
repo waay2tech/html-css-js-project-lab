@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Pinned local GSAP/ScrollTrigger, bounded scroll mapping and matchMedia cleanup."
+    />
+    <title>Scroll through layers — Waay2tech Project Lab</title>
+    <script src="./vendor/gsap.min.js"></script>
+    <script src="./vendor/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 32</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Scroll through layers</h1>
+          <p>
+            Pinned local GSAP/ScrollTrigger, bounded scroll mapping and
+            matchMedia cleanup.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <p>
+          Scroll to move the near layer at a different pace. The scene remains
+          readable without animation.
+        </p>
+        <div class="scroll-space">
+          <div id="parallax" class="scroll-scene">
+            <img
+              class="art"
+              src="./assets/scene-1.svg"
+              alt="Original mountain landscape"
+              width="800"
+              height="600"
+            /><img
+              id="near-layer"
+              src="./assets/trees.svg"
+              alt=""
+              width="800"
+              height="600"
+            />
+            <p>A change of pace.</p>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>Same scroll. Different depth.</h2>
+          <p>
+            GSAP ScrollTrigger maps the scene boundaries to a small vertical
+            transform on the foreground layer.
+          </p>
+        </div>
+        <p id="status" class="status" role="status" aria-live="polite">
+          Static scene available.
+        </p>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../31-pointer-tilt/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../33-gsap-scroll-zoom/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

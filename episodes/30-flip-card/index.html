@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="3D backface, persistent click trigger and inactive-face accessibility."
+    />
+    <title>Two sides of a card — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 30</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Two sides of a card</h1>
+          <p>
+            3D backface, persistent click trigger and inactive-face
+            accessibility.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div class="compact">
+          <div class="flip-scene">
+            <div id="flip-inner" class="flip-inner">
+              <article id="front" class="face">
+                <h2>One clear concept.</h2>
+                <p>
+                  Start with a visible result, then explain the code behind it.
+                </p>
+                <p>Turn the card to see your practice task.</p>
+              </article>
+              <article id="back" class="face back" aria-hidden="true" inert>
+                <h2>Your practice task</h2>
+                <p>
+                  Change the copy, swap the palette and test the card with
+                  keyboard navigation.
+                </p>
+              </article>
+            </div>
+          </div>
+          <p></p>
+          <button id="flip">Show practice side</button>
+          <p id="status" class="status" role="status" aria-live="polite">
+            Front side visible.
+          </p>
+        </div>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../29-css-3d-card/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../31-pointer-tilt/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Semantic recipe, native details, responsive Grid and scaled quantities."
+    />
+    <title>Tomato toast — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 02</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Tomato toast</h1>
+          <p>
+            Semantic recipe, native details, responsive Grid and scaled
+            quantities.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <article class="two">
+          <div>
+            <img
+              class="art"
+              src="./assets/recipe.svg"
+              alt="Original illustration of tomato toast on a plate"
+              width="800"
+              height="600"
+            />
+          </div>
+          <div>
+            <h2>Roasted tomato toast</h2>
+            <p>A small recipe for a relaxed study break.</p>
+            <p>
+              <strong>20 minutes</strong> · Vegetarian ·
+              <span id="servings-label">2 servings</span>
+            </p>
+            <div class="field">
+              <label for="servings">Servings</label
+              ><select id="servings">
+                <option value="2">2 people</option>
+                <option value="4">4 people</option>
+                <option value="6">6 people</option>
+              </select>
+            </div>
+            <h3>Ingredients</h3>
+            <ul id="ingredients"></ul>
+            <details>
+              <summary>Cooking method</summary>
+              <ol>
+                <li>Roast sliced tomatoes with oil and pepper.</li>
+                <li>Toast the bread until crisp.</li>
+                <li>Add tomatoes and fresh herbs. Serve warm.</li>
+              </ol>
+            </details>
+          </div>
+        </article>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../01-product-card/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../03-responsive-navigation/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

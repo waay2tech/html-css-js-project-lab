@@ -1,0 +1,209 @@
+[
+  {
+    "episode": 1,
+    "result": "Everyday laptop added. 1 item in demo bag."
+  },
+  {
+    "episode": 2,
+    "result": "4 bread slices\n400 g tomatoes\n2 tsp olive oil"
+  },
+  {
+    "episode": 3,
+    "result": "true"
+  },
+  {
+    "episode": 3,
+    "result": "false"
+  },
+  {
+    "episode": 4,
+    "result": "tooltip dismissed"
+  },
+  {
+    "episode": 5,
+    "result": "Lesson saved for this visit."
+  },
+  {
+    "episode": 6,
+    "result": "Sample preview loaded."
+  },
+  {
+    "episode": 7,
+    "result": "Preview: #FF0000"
+  },
+  {
+    "episode": 8,
+    "result": "dark"
+  },
+  {
+    "episode": 9,
+    "result": "4 / 140"
+  },
+  {
+    "episode": 10,
+    "result": "32 °F"
+  },
+  {
+    "episode": 10,
+    "result": "Temperature cannot be below absolute zero."
+  },
+  {
+    "episode": 11,
+    "result": "Add at least two non-empty options."
+  },
+  {
+    "episode": 11,
+    "result": "CSS"
+  },
+  {
+    "episode": 12,
+    "result": "You selected 5 out of 5."
+  },
+  {
+    "episode": 13,
+    "result": "CSS Grid\nCSS Flexbox"
+  },
+  {
+    "episode": 14,
+    "result": "true"
+  },
+  {
+    "episode": 15,
+    "result": "Review",
+    "nextEnabled": false
+  },
+  {
+    "episode": 16,
+    "result": "Layout, fluid spacing, typography and mobile adaptation."
+  },
+  {
+    "episode": 17,
+    "result": "Demo form is valid. No authentication request was made.",
+    "passwordCleared": true
+  },
+  {
+    "episode": 18,
+    "result": "text"
+  },
+  {
+    "episode": 19,
+    "result": "Valid six-digit format. Not server-verified."
+  },
+  {
+    "episode": 20,
+    "result": "26"
+  },
+  {
+    "episode": 21,
+    "result": "18:12:51"
+  },
+  {
+    "episode": 22,
+    "result": "Paused.",
+    "time": "01:00"
+  },
+  {
+    "episode": 23,
+    "result": "24°C"
+  },
+  {
+    "episode": 24,
+    "result": "Offline sample — not live weather"
+  },
+  {
+    "episode": 25,
+    "result": "Coastal walk expanded."
+  },
+  {
+    "episode": 26,
+    "result": "3 / 3 — Desert evening"
+  },
+  {
+    "episode": 27,
+    "result": "false"
+  },
+  {
+    "episode": 28,
+    "result": "ring paused"
+  },
+  {
+    "episode": 29,
+    "result": true
+  },
+  {
+    "episode": 30,
+    "result": "false",
+    "frontInert": ""
+  },
+  {
+    "episode": 31,
+    "result": "Tilt disabled."
+  },
+  {
+    "episode": 32,
+    "result": "GSAP parallax ready. Scroll to explore."
+  },
+  {
+    "episode": 33,
+    "result": "GSAP scroll zoom ready."
+  },
+  {
+    "episode": 34,
+    "result": "CSS view timeline supported; scroll enhancement enabled.",
+    "cards": 3
+  },
+  {
+    "episode": 35,
+    "result": "Effect stopped. No custom cursor replaces your pointer.",
+    "canvases": 0
+  },
+  {
+    "episode": 36,
+    "result": ""
+  },
+  {
+    "episode": 36,
+    "result": "Surface reset. Scratch or use Reveal message."
+  },
+  {
+    "episode": 37,
+    "result": "Paused.",
+    "audio": {
+      "duration": null,
+      "error": null,
+      "paused": true
+    }
+  },
+  {
+    "episode": 38,
+    "result": 4
+  },
+  {
+    "episode": 39,
+    "result": "Track student project reviews.",
+    "dialogVisible": true
+  },
+  {
+    "episode": 40,
+    "result": "Total ₹50,290",
+    "count": "2"
+  },
+  {
+    "episode": 40,
+    "result": "Total ₹390"
+  },
+  {
+    "episode": 40,
+    "featured": "Study headphones"
+  },
+  {
+    "episode": 35,
+    "check": "Standalone browser check",
+    "result": "Start created one canvas; Stop reloaded the lesson and removed the canvas."
+  },
+  {
+    "episode": 24,
+    "check": "Live provider",
+    "result": "Live provider response · Provider time 2026-11-02T23:30"
+  }
+]

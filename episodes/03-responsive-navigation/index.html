@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Navigation landmarks, native anchors, Flexbox and a keyboard-friendly mobile disclosure."
+    />
+    <title>Project navigation — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 03</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Project navigation</h1>
+          <p>
+            Navigation landmarks, native anchors, Flexbox and a
+            keyboard-friendly mobile disclosure.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <nav class="navigation row between" aria-label="Project sections">
+          <strong>Waay2tech Lab</strong
+          ><button
+            id="menu"
+            class="mobile-menu secondary"
+            aria-expanded="false"
+            aria-controls="menu-links"
+          >
+            Menu
+          </button>
+          <div id="menu-links" class="menu-links">
+            <a href="#learn">Learn</a><a href="#build">Build</a
+            ><a href="#share">Share</a>
+          </div>
+        </nav>
+        <section id="learn" class="section">
+          <h2>Learn the structure.</h2>
+          <p>A navigation landmark helps people find the parts of a page.</p>
+        </section>
+        <section id="build" class="section">
+          <h2>Build with Flexbox.</h2>
+          <p>
+            Desktop links wrap naturally. On a phone, the menu button controls a
+            disclosure.
+          </p>
+        </section>
+        <section id="share" class="section">
+          <h2>Share your learning.</h2>
+          <p>Use real anchors, a clear focus ring and a simple mobile menu.</p>
+        </section>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../02-recipe-card/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../04-accessible-tooltips/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

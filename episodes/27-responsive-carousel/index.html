@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Responsive media, optional autoplay, pause on focus/hover and background cleanup."
+    />
+    <title>Responsive carousel — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 27</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Responsive carousel</h1>
+          <p>
+            Responsive media, optional autoplay, pause on focus/hover and
+            background cleanup.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div id="viewer">
+          <div class="media-stage">
+            <img
+              id="slide-image"
+              class="art"
+              src="./assets/scene-1.svg"
+              alt="Illustrated mountain landscape"
+              width="800"
+              height="600"
+            />
+          </div>
+          <p id="slide-caption" class="caption" aria-live="polite"></p>
+          <div class="row">
+            <button id="previous" class="secondary">Previous</button
+            ><button id="next">Next</button
+            ><button id="autoplay" class="secondary">Start autoplay</button>
+          </div>
+        </div>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../26-image-slider/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../28-ring-loader/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

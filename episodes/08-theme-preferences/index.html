@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="CSS variables, system preference and safe localStorage persistence."
+    />
+    <title>Theme preferences — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 08</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Theme preferences</h1>
+          <p>
+            CSS variables, system preference and safe localStorage persistence.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div class="two">
+          <div>
+            <h2>Choose your reading theme</h2>
+            <p>
+              System follows your device. A saved choice is optional; the page
+              stays usable if storage is blocked.
+            </p>
+            <label for="preference">Theme preference</label
+            ><select id="preference">
+              <option value="system">System</option>
+              <option value="light">Light</option>
+              <option value="dark">Dark</option>
+            </select>
+            <p id="status" class="status" role="status" aria-live="polite">
+              Ready.
+            </p>
+          </div>
+          <article class="panel">
+            <h3>A small reading space</h3>
+            <p>
+              Shared CSS tokens change the surface, text and controls together.
+            </p>
+            <p>Keyboard focus and muted text need contrast in every theme.</p>
+          </article>
+        </div>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../07-colour-picker/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../09-character-counter/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Tab semantics, roving tabindex and one active panel."
+    />
+    <title>Learning tabs — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 14</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Learning tabs</h1>
+          <p>Tab semantics, roving tabindex and one active panel.</p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div class="tabs" role="tablist" aria-label="Learning resources">
+          <button
+            id="tab-0"
+            role="tab"
+            aria-selected="true"
+            tabindex="0"
+            aria-controls="panel-0"
+          >
+            Overview</button
+          ><button
+            id="tab-1"
+            role="tab"
+            aria-selected="false"
+            tabindex="-1"
+            aria-controls="panel-1"
+          >
+            Code</button
+          ><button
+            id="tab-2"
+            role="tab"
+            aria-selected="false"
+            tabindex="-1"
+            aria-controls="panel-2"
+          >
+            Practice
+          </button>
+        </div>
+        <section
+          id="panel-0"
+          role="tabpanel"
+          aria-labelledby="tab-0"
+          tabindex="0"
+        >
+          <h2>One state, one visible panel</h2>
+          <p>
+            Tabs switch between related resources without leaving the current
+            page.
+          </p>
+        </section>
+        <section
+          id="panel-1"
+          role="tabpanel"
+          aria-labelledby="tab-1"
+          tabindex="0"
+          hidden
+        >
+          <h2>Readable code first</h2>
+          <p>Keep the selector, event and render function easy to follow.</p>
+        </section>
+        <section
+          id="panel-2"
+          role="tabpanel"
+          aria-labelledby="tab-2"
+          tabindex="0"
+          hidden
+        >
+          <h2>Make a fourth tab</h2>
+          <p>
+            Add one resource and keep Home, End and arrow navigation working.
+          </p>
+        </section>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../13-searchable-dropdown/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../15-step-progress/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Single active index, next/previous wrapping and captions."
+    />
+    <title>Frame by frame — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 26</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Frame by frame</h1>
+          <p>Single active index, next/previous wrapping and captions.</p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div id="viewer">
+          <div class="media-stage">
+            <img
+              id="slide-image"
+              class="art"
+              src="./assets/scene-1.svg"
+              alt="Illustrated mountain landscape"
+              width="800"
+              height="600"
+            />
+          </div>
+          <p id="slide-caption" class="caption" aria-live="polite"></p>
+          <div class="row">
+            <button id="previous" class="secondary">Previous</button
+            ><button id="next">Next</button>
+          </div>
+        </div>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../25-expandable-gallery/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../27-responsive-carousel/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

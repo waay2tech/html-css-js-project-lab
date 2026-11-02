@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Integrated product grid, filtering, sorting, computed cart total, dialog and local Swiper integration."
+    />
+    <title>Tools for your desk. — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./vendor/swiper-bundle.min.css" />
+    <script src="./vendor/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 40</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Tools for your desk.</h1>
+          <p>
+            Integrated product grid, filtering, sorting, computed cart total,
+            dialog and local Swiper integration.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div class="service-hero">
+          <div>
+            <h2 class="large">Your desk.<br />Your ideas.</h2>
+            <p>
+              A working storefront interface with local catalogue filters and a
+              sample cart. All prices are illustrative.
+            </p>
+            <button id="open-cart">
+              View demo cart <span id="cart-count">0</span>
+            </button>
+          </div>
+          <img
+            class="art"
+            src="./assets/workspace.svg"
+            alt="Original workspace illustration"
+            width="800"
+            height="600"
+          />
+        </div>
+        <section class="section">
+          <h2>Featured tools</h2>
+          <div class="swiper" id="featured">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article class="panel">
+                  <h3>Everyday laptop</h3>
+                  <p>Technology · sample product</p>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="panel">
+                  <h3>Study headphones</h3>
+                  <p>Technology · sample product</p>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="panel">
+                  <h3>Project notebook</h3>
+                  <p>Stationery · sample product</p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <p></p>
+          <div class="row">
+            <button id="feature-prev" class="secondary">Previous feature</button
+            ><button id="feature-next" class="secondary">Next feature</button>
+          </div>
+        </section>
+        <section class="section">
+          <h2>Build your desk</h2>
+          <div class="products-nav">
+            <label for="category" class="sr-only">Product category</label
+            ><select id="category" style="width: auto">
+              <option>All</option>
+              <option>Technology</option>
+              <option>Stationery</option></select
+            ><label for="sort" class="sr-only">Sort products</label
+            ><select id="sort" style="width: auto">
+              <option value="default">Featured order</option>
+              <option value="price">Price: low to high</option>
+            </select>
+          </div>
+          <div id="products" class="product-list"></div>
+          <p id="status" class="status" role="status" aria-live="polite">
+            Demo products. No checkout.
+          </p>
+        </section>
+        <dialog id="cart-dialog" aria-labelledby="cart-title">
+          <h2 id="cart-title">Your demo cart</h2>
+          <div id="cart-items"></div>
+          <p id="cart-total" class="price"></p>
+          <p>No checkout, payments or inventory reservation.</p>
+          <form method="dialog"><button>Close cart</button></form>
+        </dialog>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../39-service-landing/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><span>Core path complete</span><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Fetch, geocoding, abort/timeout, validation, loading/error and offline sample states."
+    />
+    <title>Live weather — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 24</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Live weather</h1>
+          <p>
+            Fetch, geocoding, abort/timeout, validation, loading/error and
+            offline sample states.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <form id="weather-search" class="row">
+          <div class="field">
+            <label for="query">City name</label
+            ><input
+              id="query"
+              type="search"
+              value="Chennai"
+              required
+              minlength="2"
+              maxlength="80"
+            />
+          </div>
+          <button id="fetch-weather">Get weather</button>
+        </form>
+        <div class="row">
+          <button class="secondary" id="sample">Show offline sample</button>
+        </div>
+        <div class="two">
+          <div>
+            <h2 id="weather-place">Chennai</h2>
+            <p id="weather-mode" class="muted">
+              No live request yet. Use Get weather or Show offline sample.
+            </p>
+            <output id="weather-temp" class="result">—</output>
+            <p id="weather-condition">Waiting for your search</p>
+            <div class="row">
+              <p id="humidity">Humidity —</p>
+              <p id="wind">Wind —</p>
+            </div>
+          </div>
+          <div>
+            <img
+              class="art"
+              src="./assets/weather.svg"
+              alt="Original illustration of sun and clouds"
+              width="800"
+              height="600"
+            />
+          </div>
+        </div>
+        <p id="status" class="status" role="status" aria-live="polite">
+          Ready. No location permission needed.
+        </p>
+        <p class="note">
+          Live search sends the city name to
+          <a href="https://open-meteo.com/" target="_blank" rel="noreferrer"
+            >Open-Meteo</a
+          >. Educational non-commercial API use; data attribution: Open-Meteo
+          and GeoNames. Commercial deployment needs a suitable provider plan.
+        </p>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../23-weather-ui/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../25-expandable-gallery/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

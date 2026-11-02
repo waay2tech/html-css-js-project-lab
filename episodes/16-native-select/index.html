@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Replace an old jQuery custom select with a styled native select."
+    />
+    <title>Choose your track — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 16</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Choose your track</h1>
+          <p>
+            Replace an old jQuery custom select with a styled native select.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div class="two">
+          <div>
+            <label for="track">Learning track</label
+            ><select id="track" required>
+              <option value="">Choose a track</option>
+              <option value="html">HTML foundations</option>
+              <option value="css">Responsive CSS</option>
+              <option value="js">JavaScript essentials</option>
+            </select>
+            <p class="note">
+              Native selection retains keyboard, touch and assistive-technology
+              behavior without jQuery.
+            </p>
+          </div>
+          <div class="panel">
+            <h2>Track preview</h2>
+            <p id="track-copy">Choose a track to see its focus.</p>
+            <p id="status" class="status" role="status" aria-live="polite">
+              No track selected.
+            </p>
+          </div>
+        </div>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../15-step-progress/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../17-sign-in-interface/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Unicode-aware code-point count, empty input, progress and over-limit feedback."
+    />
+    <title>Character counter — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 09</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Character counter</h1>
+          <p>
+            Unicode-aware code-point count, empty input, progress and over-limit
+            feedback.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div class="two">
+          <div>
+            <label for="message">Write a short project update</label
+            ><textarea
+              id="message"
+              placeholder="Today I learned…"
+              aria-describedby="counter-help"
+            ></textarea>
+            <p id="counter-help" class="muted">
+              Limit: 140 Unicode code points. Emoji combinations may contain
+              more than one.
+            </p>
+          </div>
+          <div class="panel">
+            <h2>Your space</h2>
+            <output id="count" class="result" for="message">0 / 140</output
+            ><progress
+              id="count-progress"
+              max="140"
+              value="0"
+              aria-label="Characters used"
+            ></progress>
+            <p id="status" class="status" role="status" aria-live="polite">
+              140 remaining.
+            </p>
+          </div>
+        </div>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../08-theme-preferences/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../10-temperature-converter/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

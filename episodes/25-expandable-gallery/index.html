@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Flex expansion, real button controls and touch/keyboard alternatives to hover."
+    />
+    <title>Expand the view — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 25</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Expand the view</h1>
+          <p>
+            Flex expansion, real button controls and touch/keyboard alternatives
+            to hover.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div class="gallery">
+          <button
+            class="gallery-panel"
+            aria-expanded="true"
+            aria-controls="gallery-description"
+          >
+            <img
+              class="art"
+              src="./assets/scene-1.svg"
+              alt="Mountain morning"
+              width="800"
+              height="600"
+            /><span>Mountain morning</span></button
+          ><button
+            class="gallery-panel"
+            aria-expanded="false"
+            aria-controls="gallery-description"
+          >
+            <img
+              class="art"
+              src="./assets/scene-2.svg"
+              alt="Coastal walk"
+              width="800"
+              height="600"
+            /><span>Coastal walk</span></button
+          ><button
+            class="gallery-panel"
+            aria-expanded="false"
+            aria-controls="gallery-description"
+          >
+            <img
+              class="art"
+              src="./assets/scene-3.svg"
+              alt="Desert evening"
+              width="800"
+              height="600"
+            /><span>Desert evening</span>
+          </button>
+        </div>
+        <p id="gallery-description" class="status" aria-live="polite">
+          Mountain morning expanded.
+        </p>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../24-live-weather/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../26-image-slider/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

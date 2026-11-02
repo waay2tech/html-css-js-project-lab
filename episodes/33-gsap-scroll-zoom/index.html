@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="ScrollTrigger boundaries, from/to values, overflow crop and refresh behavior."
+    />
+    <title>Zoom on scroll — Waay2tech Project Lab</title>
+    <script src="./vendor/gsap.min.js"></script>
+    <script src="./vendor/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 33</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Zoom on scroll</h1>
+          <p>
+            ScrollTrigger boundaries, from/to values, overflow crop and refresh
+            behavior.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <p>
+          Scroll past the illustration to move from a wide frame to a closer
+          crop.
+        </p>
+        <div class="scroll-space">
+          <div id="zoom-frame" class="zoom-frame">
+            <img
+              class="art"
+              src="./assets/scene-2.svg"
+              alt="Original coastal landscape, zoom demonstration"
+              width="800"
+              height="600"
+            />
+          </div>
+        </div>
+        <div class="panel">
+          <h2>A controlled zoom.</h2>
+          <p>
+            The image stays inside its frame. Reduced motion retains the full,
+            static composition.
+          </p>
+        </div>
+        <p id="status" class="status" role="status" aria-live="polite">
+          Static illustration available.
+        </p>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../32-gsap-parallax/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../34-scroll-card-stack/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

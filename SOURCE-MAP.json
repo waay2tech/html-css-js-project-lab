@@ -1,0 +1,922 @@
+[
+  {
+    "episode": 1,
+    "title": "A product card with clean spacing",
+    "source_id": "P235",
+    "original_folder": "Product-card",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "a53535b3e68b977b6ec36f308ae81b8fb27b8f71385b355a243f464d30151995",
+        "bytes": 491
+      },
+      {
+        "file": "style.css",
+        "sha256": "0028d4baa0277acef277f1b1561a83288b69646651535d29e1cee012fd297ff0",
+        "bytes": 1113
+      }
+    ]
+  },
+  {
+    "episode": 2,
+    "title": "A responsive recipe card",
+    "source_id": "P086",
+    "original_folder": "Day 12  Recipe-card - Nothing4us",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "Day 12  Recipe-card - Nothing4us\\src\\index.html",
+        "sha256": "6b5e40acd4f9dd89221229d3f3d7cdabf0ba7220a3b7d6c7c6b8519e24e997a6",
+        "bytes": 5169
+      },
+      {
+        "file": "Day 12  Recipe-card - Nothing4us\\src\\script.js",
+        "sha256": "8686811a1d6e106a65349e4188dc1eb50f2922fc839ed3540d7bc1034909f32e",
+        "bytes": 242
+      },
+      {
+        "file": "Day 12  Recipe-card - Nothing4us\\src\\style.css",
+        "sha256": "741c6b44bb0bbc35c298ba0f08ca7aaf500eb0a86eca877d75c5e01687d2c9f6",
+        "bytes": 6950
+      }
+    ]
+  },
+  {
+    "episode": 3,
+    "title": "A responsive navigation bar",
+    "source_id": "P193",
+    "original_folder": "Nav-bar",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "231771d1732c6a5dbe851cb19475632026727e6366c4428f95cff8103dac5936",
+        "bytes": 658
+      },
+      {
+        "file": "style.css",
+        "sha256": "b9bfe296265a6a388e641aa82173ce069095ac261b8afde8566e8506febb04bb",
+        "bytes": 1055
+      }
+    ]
+  },
+  {
+    "episode": 4,
+    "title": "Tooltips that work beyond hover",
+    "source_id": "P284",
+    "original_folder": "Social icons with tooltip",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "25fbbc70ff084c85283ef6a11953de7cb03bc293a91e53e8e7d6071cfc7b7dec",
+        "bytes": 3043
+      },
+      {
+        "file": "style.css",
+        "sha256": "01cde17e969dfc426ef22b879ed0dda44d126abb12ef5735d2cd5515e3186f02",
+        "bytes": 2562
+      }
+    ]
+  },
+  {
+    "episode": 5,
+    "title": "A polished interactive button",
+    "source_id": "P121",
+    "original_folder": "Glassmorphism Button Hover Effects - Nothing4us",
+    "mit": true,
+    "source_urls": ["https://codepen.io/nothing4us/pen/gOKpvQx"],
+    "files": [
+      {
+        "file": "glassmorphism-button-hover-effects-nothing-4us\\src\\index.html",
+        "sha256": "3c0ac4ccf9c6e3938bc72bbee616eb4501d019e7176cd025b939f5533d33abe3",
+        "bytes": 665
+      },
+      {
+        "file": "glassmorphism-button-hover-effects-nothing-4us\\src\\style.css",
+        "sha256": "67888f3542ad6a9513186b94932a388d7038a3c41c1e19642d564f4ded2f4039",
+        "bytes": 2888
+      }
+    ]
+  },
+  {
+    "episode": 6,
+    "title": "A useful loading skeleton",
+    "source_id": "P057",
+    "original_folder": "Card skeleton loader",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "04ea02dd32ec1384f6124839d8f319bbb224dbb78cca7d10d8fc57a9d7ee322c",
+        "bytes": 900
+      },
+      {
+        "file": "style.css",
+        "sha256": "e1770ddf82da01dee64e5d756c3b2c990c1de82b7e7cfe93907715c8583f64e5",
+        "bytes": 2125
+      }
+    ]
+  },
+  {
+    "episode": 7,
+    "title": "A colour picker with live preview",
+    "source_id": "P041",
+    "original_folder": "Background colour selector",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "e7ee20662aa8a3971f68778079e16de1ef4a30ff5a1ff3a51f0e593d3a418fd0",
+        "bytes": 888
+      },
+      {
+        "file": "script.js",
+        "sha256": "2fb1c01a6fa58c1b62fafd1e11353b62b5c0ac1ed23b13869da558996577ff6a",
+        "bytes": 405
+      },
+      {
+        "file": "style.css",
+        "sha256": "ba463f54c1f2ec9e42fc1909b0e36ba61a3ca3e093f93385ebf56061b824bc0f",
+        "bytes": 519
+      }
+    ]
+  },
+  {
+    "episode": 8,
+    "title": "A persistent light and dark theme",
+    "source_id": "P081",
+    "original_folder": "Dark mode toggle",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "31d1174b6b7ff9257016d45e79d89edbeee6761989e79eac8115a5a97dc9d279",
+        "bytes": 911
+      },
+      {
+        "file": "style.css",
+        "sha256": "44ed4199a3c13fc11f41e5003868831212699674412ac6b723f791bc031cd1d8",
+        "bytes": 2168
+      }
+    ]
+  },
+  {
+    "episode": 9,
+    "title": "A live character counter",
+    "source_id": "P060",
+    "original_folder": "character counter (1)",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "42ff042f383b2c6b466c794c08a864f7532f1c57c207803fb8680824dcd20dc3",
+        "bytes": 580
+      },
+      {
+        "file": "script.js",
+        "sha256": "b825123c949d849388ed569884c85bea7d0335a0f7a48c8d6113d32bc3b0cd2c",
+        "bytes": 452
+      },
+      {
+        "file": "style.css",
+        "sha256": "e3ad3707de6d334d43a35962c61ffccaa990dcea8a67d20237a19e17a9112603",
+        "bytes": 1357
+      }
+    ]
+  },
+  {
+    "episode": 10,
+    "title": "A temperature converter that handles input errors",
+    "source_id": "P059",
+    "original_folder": "Celsius to Fahrenheit converter",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "4d535f14760b733f6ce3a53899586757692e4e626a5d6dca0cc4b39e744a4ee3",
+        "bytes": 699
+      },
+      {
+        "file": "script.js",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "file": "style.css",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "episode": 11,
+    "title": "A random choice picker",
+    "source_id": "P245",
+    "original_folder": "random choice picker",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "269ca54b3ea54e3858b3d8f963bb126d32836e3e77039db7145fa1747f41a409",
+        "bytes": 864
+      },
+      {
+        "file": "script.js",
+        "sha256": "f32a87e64644217f81ad3d20f829753b4acd739a7e5617d646a81cb58c1dbd3a",
+        "bytes": 982
+      },
+      {
+        "file": "style.css",
+        "sha256": "26d22652cf795bf769b9434e5df65effa63d5232a9b51b561f46a0df7fea16b6",
+        "bytes": 1068
+      }
+    ]
+  },
+  {
+    "episode": 12,
+    "title": "An accessible five-star rating",
+    "source_id": "P115",
+    "original_folder": "Five star rating",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "5a408eb50030dc3063f594cb0c4c3b7007dbc6e960151a15c07ee895f39b5e53",
+        "bytes": 771
+      },
+      {
+        "file": "script.js",
+        "sha256": "ddfe775678d9fbb3568e29992bcabfd97e98ad52b5d23a4ae84645c9b443b173",
+        "bytes": 712
+      },
+      {
+        "file": "style.css",
+        "sha256": "63887447dd859788ce8554540be722afc817387399250e273ccd61bce41df7c2",
+        "bytes": 994
+      }
+    ]
+  },
+  {
+    "episode": 13,
+    "title": "A searchable dropdown control",
+    "source_id": "P107",
+    "original_folder": "Drop-down search bar",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "65dd38575e84e4e57ab1177e6fa22c73f3ed57e80684a1f05def6d0a1bf6289d",
+        "bytes": 1539
+      },
+      {
+        "file": "script.js",
+        "sha256": "fe65c8c01ab9317d82c3419feafb32446a7125fda8e23263bef710e1b7484384",
+        "bytes": 1242
+      },
+      {
+        "file": "style.css",
+        "sha256": "6656d0df5ed1655b4e3d6cfd962d3dca77f54c13223f58020667e12d7e13192f",
+        "bytes": 2059
+      }
+    ]
+  },
+  {
+    "episode": 14,
+    "title": "Tabs with clear selected states",
+    "source_id": "P278",
+    "original_folder": "Sliding Tabs - Nothing4us",
+    "mit": true,
+    "source_urls": ["https://codepen.io/nothing4us/pen/zYapzNa"],
+    "files": [
+      {
+        "file": "sliding-tabs-nothing4us\\src\\index.html",
+        "sha256": "020d351ac0fb2003e4bc01f7e1060c31652b158b53211093e6bf7b2db0806d9e",
+        "bytes": 787
+      },
+      {
+        "file": "sliding-tabs-nothing4us\\src\\style.css",
+        "sha256": "3aa6764aedf1f23819e09ff413338789ddec39cd9ee901e1623ea4ae318d8e24",
+        "bytes": 1835
+      }
+    ]
+  },
+  {
+    "episode": 15,
+    "title": "A multi-step progress interface",
+    "source_id": "P190",
+    "original_folder": "Multi Step Progress",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "Multi Step Progress\\index.html",
+        "sha256": "657677c49828237c7c89b1e4181fbc4d20a579fbcab2c79348b2774101616c29",
+        "bytes": 916
+      },
+      {
+        "file": "Multi Step Progress\\script.js",
+        "sha256": "50a1daf902399d55d84b34f9e24b5759efd4b7a58a8d82e3d288f388d0701d7c",
+        "bytes": 1237
+      },
+      {
+        "file": "Multi Step Progress\\style.css",
+        "sha256": "2b204ef7ac775288739e03eea873ca4f4034fcc78c1fb4e9c74204815d0b0618",
+        "bytes": 1779
+      }
+    ]
+  },
+  {
+    "episode": 16,
+    "title": "Rebuild a custom select with native foundations",
+    "source_id": "P078",
+    "original_folder": "Custom Select - Nothing4us",
+    "mit": true,
+    "source_urls": ["https://codepen.io/nothing4us/pen/XWYEMmB"],
+    "files": [
+      {
+        "file": "custom-select-nothing4us\\src\\index.html",
+        "sha256": "d9292f3b0c443e35639692413a2dc801199cd50e5ed49dd34a5b838cc28e482a",
+        "bytes": 824
+      },
+      {
+        "file": "custom-select-nothing4us\\src\\script.js",
+        "sha256": "4fa848ecc65dd290a503cff7a2c2303e1288a11c709becdbc740e4984b9fae4c",
+        "bytes": 1034
+      },
+      {
+        "file": "custom-select-nothing4us\\src\\style.css",
+        "sha256": "c330089deae5141f2418b0540ac610964c9faa3f9830b3a84fe743a1a3cc23c3",
+        "bytes": 2573
+      }
+    ]
+  },
+  {
+    "episode": 17,
+    "title": "A responsive sign-in interface",
+    "source_id": "P182",
+    "original_folder": "Modern login page",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "703229b54a2eaf73398442425bea174aaa8167f38de687bf9da714e5a6206c4c",
+        "bytes": 1624
+      },
+      {
+        "file": "style.css",
+        "sha256": "9c63d398594523d6ef7740cb0f2803a0b9e7e38553b2f40f7cfe044e2b05539f",
+        "bytes": 3494
+      }
+    ]
+  },
+  {
+    "episode": 18,
+    "title": "A password visibility control",
+    "source_id": "P212",
+    "original_folder": "Password Input Light - Nothing4us",
+    "mit": true,
+    "source_urls": ["https://codepen.io/nothing4us/pen/MWXZejO"],
+    "files": [
+      {
+        "file": "password-input-light-nothing4us\\src\\index.html",
+        "sha256": "f1f8162fb0e1e1ed712c2ca39fb05d3ffbb8b3cbe56ae607fa2a5fb7c96a4fab",
+        "bytes": 1146
+      },
+      {
+        "file": "password-input-light-nothing4us\\src\\script.js",
+        "sha256": "cf103d3e3453ea6ea4ba5522810858f2294df0fcf6701e040079a9894bbb0d43",
+        "bytes": 766
+      },
+      {
+        "file": "password-input-light-nothing4us\\src\\style.css",
+        "sha256": "f1dde58ffe8ca39b2a4ee1eb978481b80c38eedd9035297e474334d398a5884c",
+        "bytes": 3078
+      }
+    ]
+  },
+  {
+    "episode": 19,
+    "title": "An OTP input interface with paste support",
+    "source_id": "P205",
+    "original_folder": "OTP verification",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "5e47a69f32a28c391fc78502cdd777ead2de9a71bf995814d089811e659ed669",
+        "bytes": 1041
+      },
+      {
+        "file": "script.js",
+        "sha256": "9d968e12361be2873f170df96513519a083224785a3adf17aa084a7bab97d53e",
+        "bytes": 2051
+      },
+      {
+        "file": "style.css",
+        "sha256": "e0b78a52a863645b0b7cada76b8fab8a7f4ec6a7d0072334c2400ec6c12f5deb",
+        "bytes": 1698
+      }
+    ]
+  },
+  {
+    "episode": 20,
+    "title": "An age calculator with edge cases",
+    "source_id": "P020",
+    "original_folder": "age calculator",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "Index.html",
+        "sha256": "90907c07ed22f29cf96cebdc4c6bdf586f96b333e741567aaeed6a5339213f4a",
+        "bytes": 1778
+      },
+      {
+        "file": "styles.css",
+        "sha256": "2aaaa88b50a9e05f576f1df9d687ded6b59abfa187b5d5efef62661783b555dc",
+        "bytes": 778
+      }
+    ]
+  },
+  {
+    "episode": 21,
+    "title": "A live digital clock",
+    "source_id": "P097",
+    "original_folder": "Digital box clock",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "63805af5dd909328e13555916a018d8dffa0e279a6da7c5a1a5c749b44a52cf3",
+        "bytes": 3881
+      },
+      {
+        "file": "script.js",
+        "sha256": "1ac871ddd3c4906e62eb42b4812b460ff1bf4bea8a62f68108ebec3db42f9cc3",
+        "bytes": 1607
+      },
+      {
+        "file": "style.css",
+        "sha256": "9c8e584f32c4d5ebcd9c9de007c2a61c265642401d0a33111a60d84c67227367",
+        "bytes": 4351
+      }
+    ]
+  },
+  {
+    "episode": 22,
+    "title": "A pause-and-resume Pomodoro timer",
+    "source_id": "P217",
+    "original_folder": "POMODORO TIMER",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "f7a6dfcfd96879e16e0b7ef56b52f98f79059ea56d8cd3e6e49a4b7da16dea61",
+        "bytes": 1492
+      },
+      {
+        "file": "script.js",
+        "sha256": "19cc7216bd10a93a8b16f052730149a23551a18d79eac84d9c1a96735c209950",
+        "bytes": 2796
+      },
+      {
+        "file": "style.css",
+        "sha256": "6946be2e07039c45d32b278eefa2c0542bd1eb8a1719cfe3b4f177ecf21fcf8c",
+        "bytes": 2202
+      }
+    ]
+  },
+  {
+    "episode": 23,
+    "title": "A weather dashboard UI",
+    "source_id": "P271",
+    "original_folder": "Simple- Weather App Design - Nothing4us",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "Simple- Weather App Design - Nothing4us\\dist\\index.html",
+        "sha256": "352bf247e831e02a35403883fe8a73243e1141e7ed0132e30d1eb50d2536dfd2",
+        "bytes": 2257
+      },
+      {
+        "file": "Simple- Weather App Design - Nothing4us\\dist\\script.js",
+        "sha256": "4f9c5a3e541f9757ad4a8142a8a7662cd1e9bf734e427d8a409a23e8f76ec60e",
+        "bytes": 17
+      },
+      {
+        "file": "Simple- Weather App Design - Nothing4us\\dist\\style.css",
+        "sha256": "b51233b148335f2f5f78519f3ad261fd3d94cad0d8b1b58b4c80014e088f7fd9",
+        "bytes": 4749
+      }
+    ]
+  },
+  {
+    "episode": 24,
+    "title": "Connect the weather app to data",
+    "source_id": "P319",
+    "original_folder": "weather",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "weather\\index.html",
+        "sha256": "5faf6a53520fb4090f82c8d99986e004caf290cb899c7281c8a56d5fb4c2aa2a",
+        "bytes": 35146
+      }
+    ]
+  },
+  {
+    "episode": 25,
+    "title": "An expandable image gallery",
+    "source_id": "P112",
+    "original_folder": "Expandable image gallery",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "78af7e7e339bc05922eaf65c80a083748c1f7b72456531ba3d73c75fb625aaf2",
+        "bytes": 912
+      },
+      {
+        "file": "style.css",
+        "sha256": "cf6c0554375ad96751c1b528a59750fda13208d177e4947cbc28c982d4e8ea62",
+        "bytes": 2409
+      }
+    ]
+  },
+  {
+    "episode": 26,
+    "title": "A slider with one active index",
+    "source_id": "P140",
+    "original_folder": "image slider",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "47d440cabfda59627212c2585af3b588db115b18c06ed51c173a9cd804652917",
+        "bytes": 3252
+      },
+      {
+        "file": "script.js",
+        "sha256": "fd8d66b3dc387abc12b48e52af7cca2f076c2778f0b75f76788ffe9876103ed4",
+        "bytes": 453
+      },
+      {
+        "file": "style.css",
+        "sha256": "a91334c0c5448f005ea7f81b5177e0d667f74caec59c52de562527a2924963f2",
+        "bytes": 2653
+      }
+    ]
+  },
+  {
+    "episode": 27,
+    "title": "A responsive carousel",
+    "source_id": "P249",
+    "original_folder": "Responsive Image Carousel Animation - Nothing4us",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "Responsive Image Carousel Animation - Nothing4us\\src\\index.html",
+        "sha256": "5adf72ec70ca7aa4583b68246ad68db4623248c3ae9a0e99cd9bad2344d6b1ae",
+        "bytes": 3113
+      },
+      {
+        "file": "Responsive Image Carousel Animation - Nothing4us\\src\\script.js",
+        "sha256": "c8c031a7d031cf89a56dcd567d954e0ee048ec27a1e02c925c8a57d00f8742e3",
+        "bytes": 304
+      },
+      {
+        "file": "Responsive Image Carousel Animation - Nothing4us\\src\\style.css",
+        "sha256": "ca66602a2f5cdcbb7bc23a9500c7b8f65b9bbe0fc597fb8f651962dfb53ea5ff",
+        "bytes": 3122
+      }
+    ]
+  },
+  {
+    "episode": 28,
+    "title": "A CSS animation explained",
+    "source_id": "P253",
+    "original_folder": "Ring loader animation",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "6df6fd1f94765f28ec8a6f096c95fedb7e259147881645e1d97faf8315751450",
+        "bytes": 406
+      },
+      {
+        "file": "style.css",
+        "sha256": "9b7041208fe7be953c314040fecdc40022dda81c80c37f6ebd3824abc4257396",
+        "bytes": 1431
+      }
+    ]
+  },
+  {
+    "episode": 29,
+    "title": "A CSS-only 3D card",
+    "source_id": "P007",
+    "original_folder": "3D Card hover effect (CSS only)",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "f5731acc505d7f93732998b1bb9490390909ad3219b9a04484530f32357df81a",
+        "bytes": 629
+      },
+      {
+        "file": "style.css",
+        "sha256": "9d4e63e70b6d573231c8e24ae7e1252890ce43f09519f1f044c5dad0801d624c",
+        "bytes": 2112
+      }
+    ]
+  },
+  {
+    "episode": 30,
+    "title": "A 3D flip card with an accessible trigger",
+    "source_id": "P005",
+    "original_folder": "3d Card Flip Hover Animation - Nothing4us",
+    "mit": true,
+    "source_urls": ["https://codepen.io/nothing4us/pen/JjZVyja"],
+    "files": [
+      {
+        "file": "3d-card-flip-hover-animation-nothing4us\\src\\index.html",
+        "sha256": "0951c4ffa832aa324a4248014d73a45ed2ecbc6801da9c945d19958c2b67cbe6",
+        "bytes": 2365
+      },
+      {
+        "file": "3d-card-flip-hover-animation-nothing4us\\src\\style.css",
+        "sha256": "19af939482d0cab2df92efdd247a2a35cad8c1278400ee5cf477a03ca4c0c06f",
+        "bytes": 2818
+      }
+    ]
+  },
+  {
+    "episode": 31,
+    "title": "An interactive 3D card",
+    "source_id": "P272",
+    "original_folder": "simple_3d_cards",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "e0aac20fe0ada7a162c79296708566eac2e235f43f088d531395769ec40f0fa2",
+        "bytes": 1853
+      },
+      {
+        "file": "main.js",
+        "sha256": "9551262621e926a5c53ebc92549c65f3d0586eb7caac3adf622a4da6aefae426",
+        "bytes": 1567
+      },
+      {
+        "file": "style.css",
+        "sha256": "599b281e1c853bdcdae7829222b135136775c3a23d9500a4f6c233b0feeb61b8",
+        "bytes": 2225
+      }
+    ]
+  },
+  {
+    "episode": 32,
+    "title": "A controlled GSAP parallax scene",
+    "source_id": "P210",
+    "original_folder": "Parallax Scrolling Website - Nothing4us",
+    "mit": true,
+    "source_urls": ["https://codepen.io/nothing4us/pen/GRBdKve"],
+    "files": [
+      {
+        "file": "parallax-scrolling-website-nothing4us\\src\\index.html",
+        "sha256": "3147edf159f92cc87d5f26ff8351f768ef2bcf4e8771b311db6ffbc4afb0b1fe",
+        "bytes": 3253
+      },
+      {
+        "file": "parallax-scrolling-website-nothing4us\\src\\script.js",
+        "sha256": "0a485026188bdc25944b8d667cf0c9bf43bcbb0b4a303941228aa80cc31971c0",
+        "bytes": 697
+      },
+      {
+        "file": "parallax-scrolling-website-nothing4us\\src\\style.scss",
+        "sha256": "a9f0416864fda70323b5d88b32e74ae65f97778a0f792404fa3f47b11e52a42b",
+        "bytes": 2339
+      }
+    ]
+  },
+  {
+    "episode": 33,
+    "title": "A GSAP image zoom on scroll",
+    "source_id": "P259",
+    "original_folder": "ScrollTrigger Image Zoom",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "d7bbe9cb758e192bbbb329f475db137dd2007e0d13420845b667800499c98ba5",
+        "bytes": 965
+      },
+      {
+        "file": "main.js",
+        "sha256": "b6f0a2101df69ce86d8e599d6289846b5f93922f964f7d00411880c1cc55dd5e",
+        "bytes": 610
+      },
+      {
+        "file": "style.css",
+        "sha256": "85232e4a7c3dc7d5a1fc4c2427569d5b47a08ab8500bca38c345c27d8b10e11f",
+        "bytes": 1024
+      }
+    ]
+  },
+  {
+    "episode": 34,
+    "title": "A scroll-driven card stack",
+    "source_id": "P257",
+    "original_folder": "Scroll-driven animated card stack with scroll snap events",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "f606507d92c8c511f60b61564414f92237918b785185162bf80fc6ae3fdba311",
+        "bytes": 3247
+      },
+      {
+        "file": "main.js",
+        "sha256": "f933bf36bb868dcc38b0ea3b1522d9fa590465470ce7928476ffb2ec6f47104a",
+        "bytes": 242
+      },
+      {
+        "file": "style.css",
+        "sha256": "74b64102182054fb9ae826e636fd3328738f18c1813724c2a2d4a3cc9638a24e",
+        "bytes": 18060
+      },
+      {
+        "file": "style.scss",
+        "sha256": "e861692d459986733bf8557b6a6630cdddbc07634481ad2b0a2b5dd188a82980",
+        "bytes": 8780
+      }
+    ]
+  },
+  {
+    "episode": 35,
+    "title": "A library-powered neon cursor",
+    "source_id": "P077",
+    "original_folder": "Cursor Trail Effect",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "ascpec ration\\index.html",
+        "sha256": "e3394b62f75daa4433f433cd6b3e968aea67902f2c7bb249719668587b2f9bd2",
+        "bytes": 1875
+      }
+    ]
+  },
+  {
+    "episode": 36,
+    "title": "A canvas scratch interaction",
+    "source_id": "P256",
+    "original_folder": "scratch and win-nothing4us",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "scratch and win\\index.html",
+        "sha256": "056d0f80c626652d89d351cffc66e0d9619d762d63c3f32eddfc589ce29527b3",
+        "bytes": 25775
+      },
+      {
+        "file": "scratch and win\\script.js",
+        "sha256": "00e33d052cd7c6ee86b1a347b129f8445628e3e85dfd89af03a2bc36fd50636b",
+        "bytes": 1862
+      },
+      {
+        "file": "scratch and win\\style.css",
+        "sha256": "8737a421591478bb3901841b12639261d8e3d3d7cba0bdc155e4d0b53848cb20",
+        "bytes": 27369
+      }
+    ]
+  },
+  {
+    "episode": 37,
+    "title": "A music player interface",
+    "source_id": "P270",
+    "original_folder": "Simple Music App Ui Design - Nothing4us",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "Simple Music App Ui Design - Nothing4us\\src\\index.html",
+        "sha256": "906b95a67b5eb1ea277f367b3f8c8a0aa5f1bccd073fe5acad0aa1b1449d1900",
+        "bytes": 17615
+      },
+      {
+        "file": "Simple Music App Ui Design - Nothing4us\\src\\script.js",
+        "sha256": "9ddc2dca33c737b5dbfa8e1f559d44f016cc7eddeeaefd5b8babf4deaa741668",
+        "bytes": 795
+      },
+      {
+        "file": "Simple Music App Ui Design - Nothing4us\\src\\style.scss",
+        "sha256": "0f477bcbe2808c1eee5d9d4f4d1443de5b3b35f3af4f41817d301c3182a775ce",
+        "bytes": 13915
+      }
+    ]
+  },
+  {
+    "episode": 38,
+    "title": "A portfolio with original project evidence",
+    "source_id": "P087",
+    "original_folder": "Day 13 Portfolio Page - Nothing4us",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "Day 13 Portfolio Page - Nothing4us\\src\\index.html",
+        "sha256": "9b5f8eebfd49cd69c7dae76f94e1f534a670d62668bea3813810d5e0583bc401",
+        "bytes": 11436
+      },
+      {
+        "file": "Day 13 Portfolio Page - Nothing4us\\src\\script.js",
+        "sha256": "dc64b484f0b9ae352c43fd76cfede85c5bfa397ae43994d0f0eb20c730d3ac72",
+        "bytes": 1223
+      },
+      {
+        "file": "Day 13 Portfolio Page - Nothing4us\\src\\style.scss",
+        "sha256": "853d33ff91849cb0efb8382454564f7cb0e3ddaad27ffd0e22790cda466eb225",
+        "bytes": 1578
+      }
+    ]
+  },
+  {
+    "episode": 39,
+    "title": "Rebuild a landing page as a modern service page",
+    "source_id": "P088",
+    "original_folder": "Day 14 Responsive Landing Page- Nothing 4us",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "Day 14 Responsive Landing Page- Nothing 4us\\src\\index.html",
+        "sha256": "ffbf9f940cf3671bf1afcfa4d72d61e9e7a5506a35145053b9b1ee74d5ca1059",
+        "bytes": 10625
+      },
+      {
+        "file": "Day 14 Responsive Landing Page- Nothing 4us\\src\\script.js",
+        "sha256": "0428f160f9c650c890c7b84506fc73684d183d2b65ed563d127d72a0833a7eeb",
+        "bytes": 819
+      },
+      {
+        "file": "Day 14 Responsive Landing Page- Nothing 4us\\src\\style.css",
+        "sha256": "da8873cd9761e6aa6af1586b44b2e05440fee8422fec421d975361adbfaa47ae",
+        "bytes": 7316
+      }
+    ]
+  },
+  {
+    "episode": 40,
+    "title": "A storefront interface capstone",
+    "source_id": "P110",
+    "original_folder": "E-Shoppervirtual-store-landing-page- Nothing4us",
+    "mit": false,
+    "source_urls": [],
+    "files": [
+      {
+        "file": "e-shoppervirtual-store-landing-page\\src\\index.html",
+        "sha256": "faafc95f71eaa6ce10077c0ffd45b8ef2e282b69f7ca558033c1a3b16471b552",
+        "bytes": 19950
+      },
+      {
+        "file": "e-shoppervirtual-store-landing-page\\src\\script.js",
+        "sha256": "0dbaf48eea70fc36ac82b2f71b161825ef1f4bca3100f3f8c512de416808238b",
+        "bytes": 2105
+      },
+      {
+        "file": "e-shoppervirtual-store-landing-page\\src\\style.css",
+        "sha256": "4731ca55f7eec3457dab4e24b862c891ecbf5b12732b2996067d43518eead5d1",
+        "bytes": 16391
+      }
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Local ES modules, threejs-toys neonCursor, WebGL capability failure and user control."
+    />
+    <title>Neon pointer lab — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 35</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Neon pointer lab</h1>
+          <p>
+            Local ES modules, threejs-toys neonCursor, WebGL capability failure
+            and user control.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div id="cursor-zone" class="cursor-zone">
+          <p>
+            Move a fine pointer to draw a neon trail. Start the effect when you
+            are ready.
+          </p>
+        </div>
+        <p></p>
+        <div class="row">
+          <button id="start-effect">Start effect</button
+          ><button id="stop-effect" class="secondary">Stop effect</button>
+        </div>
+        <p id="status" class="status" role="status" aria-live="polite">
+          Effect stopped. No custom cursor replaces your pointer.
+        </p>
+        <p class="note">
+          Library integration: neonCursor from Kevin Levron’s threejs-toys,
+          powered by Three.js. Reduced-motion and coarse-pointer devices use the
+          static view.
+        </p>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../34-scroll-card-stack/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../36-canvas-scratch/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

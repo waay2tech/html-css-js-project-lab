@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Weather layout and consistent rendering from an explicitly static dataset."
+    />
+    <title>Weather preview — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 23</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Weather preview</h1>
+          <p>
+            Weather layout and consistent rendering from an explicitly static
+            dataset.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div class="field">
+          <label for="city">Sample city</label
+          ><select id="city">
+            <option>Chennai</option>
+            <option>Bengaluru</option>
+            <option>Delhi</option>
+          </select>
+        </div>
+        <div class="two">
+          <div>
+            <h2 id="weather-place">Chennai</h2>
+            <p id="weather-mode" class="muted">
+              Sample dataset — not live weather.
+            </p>
+            <output id="weather-temp" class="result">31°C</output>
+            <p id="weather-condition">Partly cloudy</p>
+            <div class="row">
+              <p id="humidity">Humidity 68%</p>
+              <p id="wind">Wind 12 km/h</p>
+            </div>
+          </div>
+          <div>
+            <img
+              class="art"
+              src="./assets/weather.svg"
+              alt="Original illustration of sun and clouds"
+              width="800"
+              height="600"
+            />
+          </div>
+        </div>
+        <p id="status" class="status" role="status" aria-live="polite">
+          Showing illustrative sample data.
+        </p>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../22-pomodoro-timer/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../24-live-weather/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

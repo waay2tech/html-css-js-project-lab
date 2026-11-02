@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="State boundaries, progress and disabled controls."
+    />
+    <title>Learning progress — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 15</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Learning progress</h1>
+          <p>State boundaries, progress and disabled controls.</p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <ol class="steps" aria-label="Project milestones">
+          <li id="step-0">Plan</li>
+          <li id="step-1">Structure</li>
+          <li id="step-2">Style</li>
+          <li id="step-3">Review</li>
+        </ol>
+        <progress
+          id="progress"
+          value="1"
+          max="4"
+          aria-label="Current milestone"
+        ></progress>
+        <div class="panel">
+          <h2 id="step-title">Plan</h2>
+          <p id="step-copy"></p>
+        </div>
+        <div class="row">
+          <button id="previous" class="secondary">Previous</button
+          ><button id="next">Next</button>
+        </div>
+        <p id="status" class="status" role="status" aria-live="polite">
+          Ready.
+        </p>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../14-accessible-tabs/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../16-native-select/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>

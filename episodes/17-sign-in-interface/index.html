@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Labels, autocomplete, native validation and honest form behavior."
+    />
+    <title>Sign-in interface — Waay2tech Project Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to lesson</a>
+    <header class="site-header">
+      <a class="brand" href="../../index.html"
+        >waay2tech<span>Project Lab · Episode 17</span></a
+      ><button id="theme" class="secondary" aria-label="Switch theme">
+        Theme
+      </button>
+    </header>
+    <main id="main" class="shell">
+      <div class="intro">
+        <div>
+          <h1>Sign-in interface</h1>
+          <p>
+            Labels, autocomplete, native validation and honest form behavior.
+          </p>
+        </div>
+        <a href="./README.md">Lesson notes</a>
+      </div>
+      <div class="sheet stage" data-ui>
+        <div class="two">
+          <div>
+            <img
+              class="art"
+              src="./assets/workspace.svg"
+              alt="Original illustration of a study workspace"
+              width="800"
+              height="600"
+            />
+            <p class="note">
+              UI demonstration only. No account is created and no credentials
+              are transmitted.
+            </p>
+          </div>
+          <form id="signin">
+            <h2>Welcome back to learning.</h2>
+            <div class="field">
+              <label for="email">Email address</label
+              ><input
+                id="email"
+                type="email"
+                value=""
+                autocomplete="username"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="password">Demo password</label
+              ><input
+                id="password"
+                type="password"
+                value=""
+                autocomplete="current-password"
+                minlength="8"
+                required
+              />
+            </div>
+            <p class="muted">Use invented demo values. Minimum 8 characters.</p>
+            <button id="submit">Preview sign-in</button>
+            <p id="status" class="status" role="status" aria-live="polite">
+              Nothing will be sent.
+            </p>
+          </form>
+        </div>
+      </div>
+      <noscript
+        ><p class="note">
+          This lesson’s interactive controls need JavaScript. The static content
+          remains readable.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer">
+      <a href="../16-native-select/index.html">Previous lesson</a
+      ><a href="../../index.html">All 40 lessons</a
+      ><a href="../18-password-visibility/index.html">Next lesson</a
+      ><a href="./CREDITS.md">Credits</a>
+    </footer>
+  </body>
+</html>
